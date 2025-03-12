@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Control del Sueño"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="178dp"
+        android:layout_height="58dp"
+        android:text="Hora de Inicio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="178dp"
+        android:layout_height="58dp"
+        android:text="Hora de Final"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="178dp"
+        android:layout_height="58dp"
+        android:text="Lugar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="178dp"
+        android:layout_height="58dp"
+        android:text="Guardar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="593dp" />
+
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="192dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="time"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <EditText
+        android:id="@+id/editTextTime2"
+        android:layout_width="184dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="time"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
